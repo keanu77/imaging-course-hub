@@ -1,3 +1,13 @@
+# 2026-09-10 首頁影片來源精簡
+
+- 首頁「主要影片從哪裡來？」改為約 275 字中文，分學會與專家兩段，介紹 AMSSM、ESSR、SSR、Carlo Martinoli、Christoph Agten，附官方／講者連結。
+- 移除兩個 CSV 下載入口及建置輸出；舊的 dist/preview 下載檔會於建置時清除。39 個中文頻道說明、134 筆核心與 251 筆完整收錄保留線上查閱。
+- 重新核對 AMSSM 教育頁、ESSR e-learning、SSR 官網、熱那亞大學 Martinoli 資料與 Agten 個人簡介；各人的教學特色依已收錄影片整理，不是排名或臨床背書。
+- 正式網址：https://imaging-course-hub.pages.dev/；GitHub keanu77/imaging-course-hub，main 推送由 Cloudflare 自動部署。工作區最終部署狀態見 ../.claude/HANDOFF.md。
+- 本次未更動七站教材、影片選片、策展或醫療審閱狀態。
+
+以下為歷史記錄。
+
 # 2026-09-10 搬移與發布進行中
 
 工作路徑：`/Users/ethanstudio/Documents/Vobe coding/imaging-course-hub`。使用者已要求推送 GitHub 與部署 Cloudflare；正在核對實際上線 commit。以下為歷史工作記錄。髖／踝足進階研究包仍保留 draft，不視為新增策展批准。

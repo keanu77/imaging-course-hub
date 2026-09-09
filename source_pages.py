@@ -1,5 +1,4 @@
 """Render auditable, searchable video references without changing course data."""
-import csv
 import json
 from collections import Counter
 from html import escape
@@ -29,7 +28,7 @@ def render_sources(out, courses, preview=False):
         channels = Counter(r['verified_channel'] for r in group)
         options.append(f'<option value="{c["id"]}">{c["name"]}</option>')
         site_overview.append(f'<li><a href="sources.html?site={c["id"]}#videos"><strong>{c["name"]}</strong><span>{len(group)} 筆核心收錄 · {len(channels)} 個發布頻道</span><small>{e("、".join(name for name,_ in channels.most_common(3)))}</small><b aria-hidden="true">↗</b></a></li>')
-    intro = f'''<section class="source-home wrap" id="sources"><div class="section-head"><div><p class="eyebrow" lang="en">SOURCES & LEARNING VALUE</p><h2>主要影片從哪裡來？</h2></div><a class="text-link" href="sources.html">完整來源與逐片重要性 ↗</a></div><p class="source-intro">依七站既有「核心必看」標記整理，共 {len(core)} 筆收錄、{len(set(r['video_id'] for r in core))} 支不重複影片。從專業學會的掃描框架，到具名講者的影像細節與病例討論，逐支說明其教學用途。</p><ul class="source-site-list">{''.join(site_overview)}</ul><p class="catalog-note">「核心」是課程學習順序，不代表證據等級或臨床背書。完整清單保留年份、講者、診斷選段與待補查標示。</p></section>'''
+    intro = f'''<section class="source-home wrap" id="sources"><div class="section-head"><div><p class="eyebrow" lang="en">SOURCES & LEARNING VALUE</p><h2>主要影片從哪裡來？</h2></div><a class="text-link" href="sources.html">完整來源與逐片重要性 ↗</a></div><p class="source-intro">本站精選專業學會與肌骨影像專家的公開教學影片，優先收錄近十年的內容，也保留解剖與掃描技巧清楚、值得反覆研讀的經典。<a href="https://www.amssm.org/Onlinelearning-CME.php">美國運動醫學醫學會（AMSSM）</a>從運動傷害與臨床病例出發；<a href="https://www.essr.org/e-learning/">歐洲肌肉骨骼放射學會（ESSR）</a>提供標準掃描流程；<a href="https://skeletalrad.org/">肌肉骨骼放射學會（SSR）</a>則補足影像判讀與病例討論，幫助學習者建立有系統的觀察方法。</p><p class="source-intro">大師教學方面，<a href="https://dissal.unige.it/carlo.martinoli@unige.it" lang="en">Carlo Martinoli</a> 的超音波教材深入細部解剖與探頭技巧；<a href="https://www.agten.org/about" lang="en">Christoph Agten</a> 的 MRI 病例解析聚焦正常變異、細微病灶與誤判陷阱。建議先跟隨學會教材打好基礎，再以專家示範深化判讀，並對照單元文獻及實作督導。</p><ul class="source-site-list">{''.join(site_overview)}</ul><p class="catalog-note">「核心」是課程學習順序，不代表證據等級或臨床背書。完整清單保留年份、講者、診斷選段與待補查標示。</p></section>'''
     directory = []
     channel_profiles = json.loads((ROOT / 'channel-profiles.json').read_text())['channels']
     profile_by_channel = {p['channel']: p for p in channel_profiles}
@@ -58,11 +57,7 @@ def render_sources(out, courses, preview=False):
     for key,value in replacements.items():
         template = template.replace(key,value)
     (out / 'sources.html').write_text(template)
-    columns = ['site_title','learning_tier','name','verified_title','verified_channel','presenter','verified_upload_date','why','scope_note','diagnostic_segment_range','qualification_evidence_url','qualification_gap','url']
-    for filename, selected in [('all-video-sources.csv',rows),('core-video-sources.csv',core)]:
-        with (out / filename).open('w',encoding='utf-8-sig',newline='') as f:
-            writer=csv.DictWriter(f,fieldnames=columns);writer.writeheader()
-            for r in selected:
-                values={k:str(r.get(k) or '') for k in columns}
-                writer.writerow({k:("'"+v if v.startswith(('=','+','-','@')) else v) for k,v in values.items()})
+    # Remove legacy downloads from reused output folders as well as fresh builds.
+    for filename in ('all-video-sources.csv', 'core-video-sources.csv'):
+        (out / filename).unlink(missing_ok=True)
     return intro

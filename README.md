@@ -20,7 +20,7 @@
 - 主要影片依目前 syllabus 的 `learning_tier=core` 定義，不代表證據等級或臨床背書。`source-profiles.json` 補充八組來源的教學用途與官方網站。
 - `python3 prepare_sources.py` 從七站目前 syllabus 整理資料，並與 `../imaging-course-review-2026-09-09/video-inventory.json` 逐筆核對；輸出 `video-sources.json` 後，再分別建置正式連結版與本機版。
 - 影片 metadata 沿用 2026-09-09 的核對快照；整理日期為 2026-09-10。本次不會重新查詢影片，也不更新原課程的策展或醫療審閱狀態。
-- `core-video-sources.csv` 與 `all-video-sources.csv` 可從來源頁下載，以 UTF-8 BOM 輸出供試算表開啟。
+- 首頁以約 275 字介紹 AMSSM、ESSR、SSR 與 Martinoli、Agten 的教學特色，附來源連結；影片清單提供線上查閱，不提供 CSV 下載。
 - 本機來源頁：<http://127.0.0.1:8940/preview/sources.html>；驗證：`node verify-sources.cjs`。
 
 課程資料以 `courses.json` 維護。`previewPort` 只在 build 的 --preview 模式使用；正式輸出不含 localhost 入口。發布前應由實際設定的主網域補 canonical／社群預覽，並另行確認索引策略；目前保留 noindex；GitHub 為 keanu77/imaging-course-hub（private），正式輸出部署至 imaging-course-hub.pages.dev。

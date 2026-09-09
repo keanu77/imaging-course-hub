@@ -1,5 +1,4 @@
 """Check standalone output, source coverage and public link isolation."""
-import csv
 import json
 from html.parser import HTMLParser
 from pathlib import Path
@@ -35,9 +34,5 @@ for name in ("index.html", "sources.html"):
     if name == "sources.html":
         assert parser.classes.count("provider-importance") == len(profiles)
         assert parser.classes.count("video-record") == len(rows)
-for name, expected in (("core", core), ("all", rows)):
-    with (ROOT / "dist" / (name + "-video-sources.csv")).open(encoding="utf-8-sig", newline="") as f:
-        exported = list(csv.DictReader(f))
-    assert len(exported) == len(expected)
-    assert all(r["why"].strip() for r in exported)
-print("PASS standalone public build, channel explanations and CSV coverage")
+assert not list((ROOT / "dist").glob("*-video-sources.csv"))
+print("PASS standalone public build and channel explanations")
