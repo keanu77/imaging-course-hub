@@ -1,3 +1,11 @@
+# 2026-09-10 預設深色與返回主頁
+
+- 首次造訪預設深色；即使系統偏好淺色、無儲存權限或無 JavaScript 亦然。原有深淺切換與有效偏好繼續保留。
+- 七個課程網站左上方新增「← 學習站首頁」，連到 https://imaging-course-hub.pages.dev/；檢核表與已發布進階頁同步提供。
+- 檢核表採深色螢幕顯示、白底列印。膝部純靜態單元講義維持無 JS、固定深色，主頁外連延續新分頁規則。
+- 教材、策展批准與醫療審閱狀態未改。八站實際品質檢查及瀏覽器驗證均通過，證據為 ../imaging-design-audit-2026-09-09/dark-default-checks-final.json 與 dark-default-browser-0.json；舊失敗報告保留。
+- 最終部署 SHA 與狀態見工作區 ../.claude/HANDOFF.md。
+
 # 2026-09-10 首頁影片來源精簡
 
 - 首頁「主要影片從哪裡來？」改為約 275 字中文，分學會與專家兩段，介紹 AMSSM、ESSR、SSR、Carlo Martinoli、Christoph Agten，附官方／講者連結。
