@@ -1,0 +1,36 @@
+{
+  "placements": 251,
+  "core": 134,
+  "uniqueCore": 132,
+  "coreChannels": 39,
+  "results": [
+    "shoulder core mapping",
+    "wrist-hand core mapping",
+    "hip core mapping",
+    "knee core mapping",
+    "ankle-foot core mapping",
+    "cervical core mapping",
+    "lumbar core mapping",
+    "320 light",
+    "320 dark",
+    "390 light",
+    "390 dark",
+    "768 light",
+    "768 dark",
+    "1440 light",
+    "1440 dark"
+  ],
+  "checks": [
+    "title",
+    "no decorative border",
+    "7 site links",
+    "core/all filters",
+    "channel link and keyboard focus",
+    "search and reset",
+    "per-video importance",
+    "CSV downloads",
+    "preview URLs",
+    "no-JS full list"
+  ],
+  "errors": []
+}

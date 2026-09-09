@@ -1,0 +1,396 @@
+{
+  "updated_at": "2026-09-10",
+  "editorial_basis": "背景依所附發布單位、講者或原片資料；教學重要性為本站依目前收錄主題整理的學習用途。",
+  "channels": [
+    {
+      "channel": "ARRS",
+      "name_zh": "美國倫琴射線學會",
+      "background_zh": "提供放射科專業教育、病例及學術演講的學會。",
+      "importance_zh": "本站以其退化性脊椎教材，協助學員將零散的骨刺、椎間盤與關節變化整理成有次序的判讀架構。",
+      "when_zh": "學完腰椎正常解剖後，用來整理退化所見。",
+      "reference_url": "https://www.arrs.org/ARRSLIVE/ARRSLIVE/Education/Education.aspx",
+      "reference_label": "發布單位或講者資料",
+      "boundary_zh": ""
+    },
+    {
+      "channel": "BerlinCaseViewer",
+      "name_zh": "柏林影像病例教學平台",
+      "background_zh": "結合放射科與風濕科專家、以實際影像病例為主的教育平台。",
+      "importance_zh": "薦髂關節是容易把正常變異、機械性變化與發炎所見混淆的區域；本站選片提供病例對照，補足只背疾病名稱的不足。",
+      "when_zh": "複習薦髂關節的影像辨識與鑑別思考。",
+      "reference_url": "https://www.berlincaseviewer.com/",
+      "reference_label": "發布單位或講者資料",
+      "boundary_zh": ""
+    },
+    {
+      "channel": "Bridie Roche Sonographer",
+      "name_zh": "Bridie Roche 超音波教學",
+      "background_zh": "具解剖與超音波教育背景的超音波專業人員；ASUM 提供其講者介紹。",
+      "importance_zh": "她的選片著重細小韌帶、肌腱與動態擺位，能把探頭位置和螢幕上的結構對上，尤其補充 Lisfranc、Chopart 與彈響髖的操作細節。",
+      "when_zh": "已能完成基本掃描，想改善難找結構的辨識時。",
+      "reference_url": "https://asum.com.au/docs/Events/Bridie-Roche.pdf",
+      "reference_label": "發布單位或講者資料",
+      "boundary_zh": ""
+    },
+    {
+      "channel": "Cervical Spine Research Society",
+      "name_zh": "頸椎研究學會",
+      "background_zh": "聚焦頸椎疾病與研究的跨專業學會。",
+      "importance_zh": "本站的脊髓病變進階 MRI 教材，讓學員從臨床問題理解影像評估的目的，補充單純描述椎管狹窄的學習。",
+      "when_zh": "完成頸椎 MRI 基礎後，進一步理解脊髓病變評估。",
+      "reference_url": "https://www.csrs.org/",
+      "reference_label": "發布單位或講者資料",
+      "boundary_zh": ""
+    },
+    {
+      "channel": "Chris Beaulieu",
+      "name_zh": "Chris Beaulieu 肌骨影像教學",
+      "background_zh": "Stanford 肌骨影像教育頁直接列出的教學頻道，包含不同講者的教材。",
+      "importance_zh": "本站選片跨越髖部 X 光、骨折 CT 與腕部 MRI，重點在完整的觀察方法及細微異常，適合建立正常解剖到病變判讀的連結。",
+      "when_zh": "需要較完整的髖部基礎或腕部進階解剖時。",
+      "reference_url": "https://med.stanford.edu/content/sm/msk/education/radiologycme.html",
+      "reference_label": "發布單位或講者資料",
+      "boundary_zh": "頻道名稱不等於每支影片的講者；請查看逐片資料。"
+    },
+    {
+      "channel": "Clarius Mobile Health",
+      "name_zh": "Clarius 手持超音波教育",
+      "background_zh": "超音波設備商發布的教育內容；本站所列肩部教材講者為 Marc Schmitz。",
+      "importance_zh": "動態肩部示範能把肌腱滑動、關節動作與超音波影像連起來，補充靜態截圖無法呈現的觀察。",
+      "when_zh": "學完肩部標準視圖後，練習動態觀察。",
+      "reference_url": "https://www.sonoskills.com/team/marc-schmitz/",
+      "reference_label": "本站選片講者資料",
+      "boundary_zh": "設備商教育具有商業背景，示範價值不等於設備效能的比較證據。"
+    },
+    {
+      "channel": "Dr Christoph Agten",
+      "name_zh": "Christoph Agten 肌骨 MRI 教學",
+      "background_zh": "以肌骨影像病例與 MRI 細節為主的具名講者教學。",
+      "importance_zh": "本站選片涵蓋髖臼唇、踝韌帶、蹠板與 TFCC，特別適合拆解正常變異、容易誤判的訊號及小結構損傷。",
+      "when_zh": "已建立整套判讀順序後，針對常出錯的細節複習。",
+      "reference_url": "https://www.agten.org/blog",
+      "reference_label": "發布單位或講者資料",
+      "boundary_zh": ""
+    },
+    {
+      "channel": "ED x-ray teaching",
+      "name_zh": "急診 X 光判讀教學",
+      "background_zh": "以急診 X 光為題的教學頻道；本站選片為踝部骨折病例。",
+      "importance_zh": "將踝穴對位、脛腓重疊與內側間隙等觀察帶入病例，讓學員練習從「看到骨折」進到「描述對位與穩定性線索」。",
+      "when_zh": "學完踝部 X 光搜尋順序後做病例練習。",
+      "reference_url": "https://www.youtube.com/watch?v=zi0HrqiZoXw",
+      "reference_label": "本站收錄原片",
+      "boundary_zh": "此處依收錄影片說明用途，不推定整個頻道具有學會或醫院的官方地位。"
+    },
+    {
+      "channel": "ESSR Office",
+      "name_zh": "歐洲肌肉骨骼放射學會",
+      "background_zh": "提供關節標準掃描示範的肌骨放射學會。",
+      "importance_zh": "肩與膝的掃描影片把探頭位置、解剖地標、標準視圖串成固定順序，是建立可重複掃描流程的重要對照教材。",
+      "when_zh": "開始學習肩或膝超音波，以及檢查自己的掃描順序時。",
+      "reference_url": "https://www.essr.org/e-learning/",
+      "reference_label": "發布單位或講者資料",
+      "boundary_zh": ""
+    },
+    {
+      "channel": "Global Medical Business at Canon Inc.",
+      "name_zh": "Canon 醫療影像教育",
+      "background_zh": "設備商發布的專家演講；本站肩部教材由 Carlo Martinoli 講解。",
+      "importance_zh": "旋轉肌袖的超音波解剖能協助學員辨認肌腱走向與相鄰結構，補充標準掃描流程中的精細解剖。",
+      "when_zh": "學完肩部掃描路徑後，深入肌腱與附著處的辨識。",
+      "reference_url": "https://dissal.unige.it/carlo.martinoli%40unige.it",
+      "reference_label": "本站選片講者資料",
+      "boundary_zh": "內容價值來自具體示範與講者專業，不作為設備優越性的證據。"
+    },
+    {
+      "channel": "Harvard Global Orthopaedics Collaborative",
+      "name_zh": "哈佛全球骨科合作計畫",
+      "background_zh": "由哈佛體系相關骨科教師與受訓人員參與、重視全球骨科教育可近性的合作計畫。",
+      "importance_zh": "本站頸椎創傷選片以骨科臨床問題組織影像判讀，幫助學員理解對位、骨折與損傷型態為何需要一起觀察。",
+      "when_zh": "學習頸椎創傷的整體判讀流程。",
+      "reference_url": "https://www.thehcorp.org/harvard-global-orthopaedics-collaborative",
+      "reference_label": "發布單位或講者資料",
+      "boundary_zh": ""
+    },
+    {
+      "channel": "Health4TheWorld Academy ",
+      "name_zh": "Health4TheWorld 全球醫學教育",
+      "background_zh": "提供免費線上醫學課程的非營利教育平台，包含放射影像講題。",
+      "importance_zh": "本站用其下背痛與脊椎感染教材，補足「什麼問題需要影像回答」及非退化性病變的思考，避免課程只圍繞常見退化所見。",
+      "when_zh": "建立腰椎基礎後，擴展檢查策略與感染鑑別。",
+      "reference_url": "https://health4theworld.org/academy/",
+      "reference_label": "發布單位或講者資料",
+      "boundary_zh": ""
+    },
+    {
+      "channel": "ISMRM-ISMRT",
+      "name_zh": "國際磁振醫學與磁振技術專業教育",
+      "background_zh": "服務磁振醫學、研究與技術專業社群的教育來源。",
+      "importance_zh": "本站半月板與軟骨講題把 MRI 特徵、病灶分類和報告重點連結起來，適合進一步學習如何支持與表達判讀結論。",
+      "when_zh": "完成膝 MRI 基礎後，複習半月板診斷判準及軟骨報告。",
+      "reference_url": "https://www.ismrm.org/history-mission/",
+      "reference_label": "發布單位或講者資料",
+      "boundary_zh": ""
+    },
+    {
+      "channel": "Indiana University School of Medicine POCUS",
+      "name_zh": "印第安納大學醫學院床邊超音波教學",
+      "background_zh": "將床邊超音波納入醫學生與臨床受訓醫師教育的醫學院教學來源。",
+      "importance_zh": "本站髖、踝與腕的基本檢查能提供清楚的入門路徑，幫助初學者建立擺位、探頭方向與正常解剖的連結。",
+      "when_zh": "首次接觸某部位超音波時，作為入門示範。",
+      "reference_url": "https://medicine.iu.edu/point-of-care-ultrasound",
+      "reference_label": "發布單位資料",
+      "boundary_zh": "床邊基本檢查的範圍，不等於完整肌骨超音波專科檢查。"
+    },
+    {
+      "channel": "International Osteoporosis Foundation IOF",
+      "name_zh": "國際骨質疏鬆基金會",
+      "background_zh": "提供骨質疏鬆與椎體骨折專業教育的國際組織。",
+      "importance_zh": "其椎體骨折教材提醒學員辨識椎體變形並清楚報告，補充把壓迫性骨折當作一般退化所見而忽略的學習盲點。",
+      "when_zh": "複習腰椎影像中的椎體高度、形態與骨折評估。",
+      "reference_url": "https://www.osteoporosis.foundation/educational-hub/topic/fractures/vertebral-fracture-teaching-programme",
+      "reference_label": "發布單位或講者資料",
+      "boundary_zh": "發布機構可確認；本站所收錄影片的講者姓名仍待補查。"
+    },
+    {
+      "channel": "J.P. Haas, MD",
+      "name_zh": "J. P. Haas 肌骨影像教學",
+      "background_zh": "具肌骨放射訓練背景的 UNMC 放射科教師。",
+      "importance_zh": "肩部 MRI／MRA 檢查安排的教材，讓學員先確認影像取得方式與序列是否適合回答問題，再進入病灶判讀。",
+      "when_zh": "讀肩部 MRI 前，檢查影像序列與檢查目的是否相符。",
+      "reference_url": "https://www.unmc.edu/radiology/faculty/haas.html",
+      "reference_label": "發布單位或講者資料",
+      "boundary_zh": ""
+    },
+    {
+      "channel": "Jeffrey Peng MD",
+      "name_zh": "Jeffrey Peng 運動醫學教學",
+      "background_zh": "具運動醫學與家庭醫學專科背景的醫師。",
+      "importance_zh": "本站使用其膝關節 Kellgren–Lawrence 分級實例，把抽象分級文字轉成可比較的 X 光所見，便於初學者建立共同用語。",
+      "when_zh": "第一次學習或複習膝部退化 X 光分級時。",
+      "reference_url": "https://stanfordhealthcare.org/doctors/p/jeffrey-peng.html",
+      "reference_label": "發布單位或講者資料",
+      "boundary_zh": "影像分級不能單獨代表疼痛程度或決定治療。"
+    },
+    {
+      "channel": "Joseph Minardi",
+      "name_zh": "Joseph Minardi 床邊超音波教學",
+      "background_zh": "具急診與床邊超音波教育背景的醫師。",
+      "importance_zh": "本站頸部選片把探頭位置與頸前、頸側的正常結構對照，補足只在圖譜辨認解剖、尚不熟悉實際定位的環節。",
+      "when_zh": "開始學習頸部超音波定位時。",
+      "reference_url": "https://directory.hsc.wvu.edu/Profile/30925",
+      "reference_label": "發布單位或講者資料",
+      "boundary_zh": "本站使用範圍是解剖定位，並非介入操作教學。"
+    },
+    {
+      "channel": "Khan Academy",
+      "name_zh": "可汗學院基礎教學",
+      "background_zh": "以逐步講解為特色的教育平台；本站使用其頸椎 X 光基礎影片。",
+      "importance_zh": "影片把影像是否完整、C7／T1 是否納入及對位線的檢查分開說明，幫助學員建立「先確認品質，再判讀」的習慣。",
+      "when_zh": "初學頸椎 X 光，或需要快速複習基本檢查步驟時。",
+      "reference_url": "https://www.youtube.com/watch?v=cbkTTluHaTw",
+      "reference_label": "本站收錄原片",
+      "boundary_zh": "較早的基礎教學適合學原理；當代創傷影像選擇仍需配合現行指引。"
+    },
+    {
+      "channel": "LearnNeuroradiology",
+      "name_zh": "神經放射學習頻道",
+      "background_zh": "由神經放射醫師創立、專注神經影像教育的網站與頻道。",
+      "importance_zh": "本站頸椎與腰椎影片兼顧搜尋順序、椎間盤命名、病灶位置及非退化性疾病，適合練習一致的判讀與報告語言。",
+      "when_zh": "建立脊椎 MRI 的基本架構，再進行病例整合。",
+      "reference_url": "https://learnneuroradiology.com/about-us/",
+      "reference_label": "發布單位或講者資料",
+      "boundary_zh": ""
+    },
+    {
+      "channel": "MSK Australia",
+      "name_zh": "澳洲肌骨超音波教育",
+      "background_zh": "由放射科醫師與超音波專業人員參與的肌骨影像教育團隊。",
+      "importance_zh": "本站的正中神經教材可用於追蹤神經走向及觀察周邊關係，補充只看腕隧道單一切面的學習方式。",
+      "when_zh": "完成腕部基本掃描後，練習周邊神經評估。",
+      "reference_url": "https://www.mskaustralia.com.au/",
+      "reference_label": "發布單位或講者資料",
+      "boundary_zh": "機構背景已有公開資料；這不等於已核實本站該片未完整記錄的講者資格。"
+    },
+    {
+      "channel": "Martinoli Ultrasound",
+      "name_zh": "Martinoli 肌骨超音波教學",
+      "background_zh": "本站選片由 Carlo Martinoli 講解，著重肌骨超音波細部解剖。",
+      "importance_zh": "肩部旋轉間隙包含多個相近的小結構，選片可補充一般肩部掃描總覽較少深入的解剖關係與辨識技巧。",
+      "when_zh": "熟悉旋轉肌袖後，進一步理解旋轉間隙。",
+      "reference_url": "https://rubrica.unige.it/personale/UEZOW14%3D",
+      "reference_label": "本站選片講者資料",
+      "boundary_zh": ""
+    },
+    {
+      "channel": "Navigating Radiology",
+      "name_zh": "系統性影像判讀教學",
+      "background_zh": "由放射科醫師 Rajesh Bhayana 創立，重視病例與系統性觀察的教學平台。",
+      "importance_zh": "本站膝、髖與踝 MRI 影片示範如何有順序地檢查各結構，適合把零散的解剖知識整理成一套實際能執行的判讀流程。",
+      "when_zh": "準備開始讀完整一套關節 MRI 時。",
+      "reference_url": "https://www.navigatingradiology.com/about",
+      "reference_label": "發布單位或講者資料",
+      "boundary_zh": ""
+    },
+    {
+      "channel": "Neuromuscular ultrasound NL",
+      "name_zh": "神經肌肉超音波教學",
+      "background_zh": "本站使用其臂叢解剖與掃描示範，逐片資料列有講者 Zsuzsanna Arányi。",
+      "importance_zh": "臂叢結構複雜，動態掃描示範能幫助學員把神經叢的空間關係轉成實際探頭下的影像。",
+      "when_zh": "已熟悉頸部地標後，學習臂叢辨識。",
+      "reference_url": "https://www.youtube.com/watch?v=9xFtIoxZx08",
+      "reference_label": "本站收錄原片",
+      "boundary_zh": "用途限本站所列的解剖與診斷掃描；不據此推定整個頻道的機構資格。"
+    },
+    {
+      "channel": "Radiology Channel",
+      "name_zh": "放射影像講解頻道",
+      "background_zh": "本站收錄 Andrew Dixon 的膝 MRI 入門演講。",
+      "importance_zh": "重點是說明不同序列各自回答什麼問題，讓學員理解解剖與液體敏感訊號的用途，再進入半月板和韌帶判讀。",
+      "when_zh": "初學膝 MRI、還不熟悉序列選擇與影像外觀時。",
+      "reference_url": "https://www.youtube.com/watch?v=p3pI_TJ5PSo",
+      "reference_label": "本站收錄原片",
+      "boundary_zh": ""
+    },
+    {
+      "channel": "Radiology Residency UM/JMH",
+      "name_zh": "UM／JMH 放射住院醫師教學",
+      "background_zh": "以放射住院醫師教育為題的頻道；本站收錄正常解剖與超音波評估講題。",
+      "importance_zh": "髖、踝與腕的正常 MRI 解剖可作為病變比較的基準，幫助學員先找到結構，再討論是否異常。",
+      "when_zh": "開始學習一個新關節的正常影像時。",
+      "reference_url": "https://www.youtube.com/watch?v=oYIjneT5rGg",
+      "reference_label": "本站收錄原片",
+      "boundary_zh": "頻道名稱保留原文，不單憑名稱推定目前的大學官方管理狀態。"
+    },
+    {
+      "channel": "SMUG MSK ultrasound training",
+      "name_zh": "SMUG 肌骨超音波訓練",
+      "background_zh": "提供肌骨超音波課程與實作教育的訓練機構。",
+      "importance_zh": "本站選片從髖、踝到腕手，著重逐區掃描、肌腱韌帶定位與動態測試，能幫助學員把標準流程落實到探頭操作。",
+      "when_zh": "跟著課程建立分區掃描習慣，或在實作前複習時。",
+      "reference_url": "https://www.ultrasoundtraining.co.uk/",
+      "reference_label": "發布單位或講者資料",
+      "boundary_zh": "機構背景與每支影片的講者資料分開看；未具名影片仍保留待補查標記。"
+    },
+    {
+      "channel": "Sahand Hooshmand",
+      "name_zh": "Sahand Hooshmand 影像教學",
+      "background_zh": "本站使用其腕部 X 光病例教學。",
+      "importance_zh": "教材先確認影像品質再逐例判讀，特別適合練習把曝光、擺位與涵蓋範圍納入判讀，而不是直接尋找病灶。",
+      "when_zh": "已學會腕部正常解剖，要開始讀實際病例時。",
+      "reference_url": "https://www.youtube.com/watch?v=Y0t2_418RbA",
+      "reference_label": "本站收錄原片",
+      "boundary_zh": ""
+    },
+    {
+      "channel": "San Diego Spine Foundation",
+      "name_zh": "聖地牙哥脊椎基金會",
+      "background_zh": "支持脊椎研究與專業教育的基金會。",
+      "importance_zh": "本站神經性跛行與側隱窩狹窄教材，協助學員把病人的症狀問題對應到需要仔細觀察的解剖區域。",
+      "when_zh": "學完腰椎狹窄的影像外觀後，練習臨床與影像整合。",
+      "reference_url": "https://www.sandiegospinefoundation.org/research/",
+      "reference_label": "發布單位或講者資料",
+      "boundary_zh": "症狀與影像必須整合，不能只憑狹窄影像推定症狀來源。"
+    },
+    {
+      "channel": "Search Pattern",
+      "name_zh": "固定順序影像判讀教學",
+      "background_zh": "本站收錄以固定搜尋順序講解 X 光與 MRI 的影片。",
+      "importance_zh": "骨盆、踝、腕與脊椎的片子使用可重複的檢查步驟，適合建立每次都照順序看的習慣，減少只關注最明顯異常的情況。",
+      "when_zh": "每個新部位的入門階段，先建立判讀清單。",
+      "reference_url": "https://www.youtube.com/watch?v=6CSzvmcD7Ac",
+      "reference_label": "本站收錄原片",
+      "boundary_zh": ""
+    },
+    {
+      "channel": "Society of Skeletal Radiology",
+      "name_zh": "肌肉骨骼放射學會",
+      "background_zh": "聚焦肌骨放射影像，提供住院醫師與專業教育的學會。",
+      "importance_zh": "本站肩、髖、踝與腕的病例教材，補足正常解剖之後的病灶搜尋、容易漏診的骨折與鑑別練習。",
+      "when_zh": "已有基本解剖與判讀順序，準備進入整合病例時。",
+      "reference_url": "https://skeletalrad.org/",
+      "reference_label": "發布單位或講者資料",
+      "boundary_zh": ""
+    },
+    {
+      "channel": "Sonosite",
+      "name_zh": "Sonosite 超音波教育",
+      "background_zh": "超音波設備商提供的分區示範與專業線上講座。",
+      "importance_zh": "本站選片補充深部髖結構的成像調整，以及踝部前、內、外、後側的觀察路徑，適合改善「知道要看哪裡，但影像看不清楚」的問題。",
+      "when_zh": "已有基本操作能力，想改善影像品質與分區完整性時。",
+      "reference_url": "https://www.sonosite.com/webinars",
+      "reference_label": "發布單位或講者資料",
+      "boundary_zh": "設備商發布背景須與講者教學價值分開；不作為產品優越性證據。"
+    },
+    {
+      "channel": "Stanford Radiology",
+      "name_zh": "史丹佛大學放射影像教學",
+      "background_zh": "Stanford 放射影像教育資源列出的教學頻道。",
+      "importance_zh": "本站腰椎 MRI 基礎教材可協助學員先熟悉正常解剖與影像檢視，再進入椎間盤、神經孔和狹窄等病變內容。",
+      "when_zh": "第一次有系統地閱讀腰椎 MRI 時。",
+      "reference_url": "https://med.stanford.edu/content/sm/msk/education/radiologycme.html",
+      "reference_label": "發布單位或講者資料",
+      "boundary_zh": ""
+    },
+    {
+      "channel": "The AMSSM",
+      "name_zh": "美國運動醫學醫學會",
+      "background_zh": "以運動醫學臨床照護與教育為核心的專業學會，提供超音波課程與病例教材。",
+      "importance_zh": "本站 X 光模組與彈響髖、足底疼痛、肌腱鞘病變等病例，將運動醫學常見問題連回影像觀察與動態測試的目的。",
+      "when_zh": "希望從「症狀或臨床問題」出發學影像時。",
+      "reference_url": "https://www.amssm.org/Onlinelearning-CME.php",
+      "reference_label": "發布單位或講者資料",
+      "boundary_zh": ""
+    },
+    {
+      "channel": "The Ultrasound Site - MSK ultrasound education",
+      "name_zh": "The Ultrasound Site 肌骨超音波教學",
+      "background_zh": "提供肌骨超音波教育與實作指導的教學來源。",
+      "importance_zh": "本站異向性、阿基里斯腱、蹠間隙與手部肌腱選片，著重探頭角度、連續追蹤和偽影修正，能改善日常掃描時最常見的技術問題。",
+      "when_zh": "影像出現可疑低回音，或需要追蹤細小結構時。",
+      "reference_url": "https://theultrasoundsite.co.uk/ultrasound-education/",
+      "reference_label": "發布單位或講者資料",
+      "boundary_zh": ""
+    },
+    {
+      "channel": "URMC MSK",
+      "name_zh": "羅徹斯特大學肌骨影像教學",
+      "background_zh": "本站選片講者及肌骨影像教學背景可由羅徹斯特大學醫療體系資料查核。",
+      "importance_zh": "髖部撞擊與關節造影盂唇教材，補充髖部 MRI 的正常變異、病變判讀與專題深入學習。",
+      "when_zh": "完成髖 MRI 基礎後，複習 FAI 與盂唇問題。",
+      "reference_url": "https://www.urmc.rochester.edu/people/112360903-scott-schiffman",
+      "reference_label": "本站選片講者資料",
+      "boundary_zh": ""
+    },
+    {
+      "channel": "X-Ray Review: Learn Radiology Fast!",
+      "name_zh": "X 光快速複習教學",
+      "background_zh": "以 X 光疾病辨識與分類為題的教學頻道。",
+      "importance_zh": "本站用於腰薦移行節段、脊椎滑脫、DISH 與僵直性脊椎炎的複習，方便並列比較不同疾病的典型影像特徵。",
+      "when_zh": "讀完正式教材後，快速回顧脊椎疾病分類與名詞。",
+      "reference_url": "https://www.youtube.com/watch?v=xFAzP0oF1ek",
+      "reference_label": "頻道收錄原片之一",
+      "boundary_zh": "講者與資格資料不足，因此定位為輔助複習；不把頻道名或核心標記當成權威性證明。"
+    },
+    {
+      "channel": "Yale Radiology and Biomedical Imaging",
+      "name_zh": "耶魯大學放射暨生醫影像教學",
+      "background_zh": "耶魯醫學院提供放射影像教育與公開演講資源。",
+      "importance_zh": "本站選片從脊椎 X 光入門延伸到退化所見的報告整理，適合練習把「看到了什麼」轉成清楚一致的描述。",
+      "when_zh": "開始學習脊椎 X 光，或想改善報告用語時。",
+      "reference_url": "https://medicine.yale.edu/media-player/introduction-to-radiology-conventional-radiology/",
+      "reference_label": "發布單位或講者資料",
+      "boundary_zh": ""
+    },
+    {
+      "channel": "nabil ebraheim",
+      "name_zh": "Nabil Ebraheim 骨科教學",
+      "background_zh": "以骨科解剖、疾病與損傷教學為主的具名醫師頻道。",
+      "importance_zh": "本站股骨頭壞死分期、距骨骨軟骨病灶及腕骨脫位教材，協助理解分類背後的解剖與損傷關係，補充單純影像徵象的記憶。",
+      "when_zh": "需要先弄清楚疾病分類或損傷機轉，再回頭看影像時。",
+      "reference_url": "https://www.utoledo.edu/engineering/ecore/pdfs/Ebraheim%20CV%20-%20Copy.pdf",
+      "reference_label": "講者大學公開履歷",
+      "boundary_zh": "骨科概念教材需搭配完整影像案例；不以簡圖取代正式判讀。"
+    }
+  ]
+}

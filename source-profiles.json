@@ -1,0 +1,10 @@
+[
+ {"name":"AMSSM","channels":["The AMSSM"],"role":"運動醫學學會教材","importance":"把運動醫學的臨床問題連回影像觀察。本站收錄的 X 光模組與超音波病例，可用來練習從照射位、動態現象到病變線索的判讀順序。","boundary":"官方課程也包含介入內容；本站只採各影片標示的診斷範圍。","url":"https://www.amssm.org/Onlinelearning-CME.php"},
+ {"name":"ESSR","channels":["ESSR Office"],"role":"肌骨影像學會掃描示範","importance":"以系統性的關節掃描示範連結探頭位置、解剖地標與標準視圖，適合作為肩與膝超音波掃描順序的對照。","boundary":"標準掃描示範不能取代實機練習與督導；部分原片為未列出影片。","url":"https://www.essr.org/e-learning/"},
+ {"name":"Society of Skeletal Radiology（SSR）","channels":["Society of Skeletal Radiology"],"role":"肌骨放射學會教育","importance":"本站選片用於肩、髖、踝足與腕手的 MRI 搜尋路徑、骨折與病例討論，補足只認識正常解剖而缺少病變對照的學習環節。","boundary":"病例教學與診斷研究的證據用途不同；結論仍須核對該單元文獻。","url":"https://skeletalrad.org/"},
+ {"name":"SMUG 與 The Ultrasound Site","channels":["SMUG MSK ultrasound training","The Ultrasound Site - MSK ultrasound education"],"role":"肌骨超音波教學機構","importance":"本站選片著重分區掃描、動態觀察與偽影辨識，讓學員把螢幕上的影像和探頭調整、擺位連起來。","boundary":"教學機構的示範不是專業學會共識；應搭配本站所列技術指引。","url":"https://www.ultrasoundtraining.co.uk/","additional_url":"https://theultrasoundsite.co.uk/ultrasound-education/"},
+ {"name":"Christoph Agten","channels":["Dr Christoph Agten"],"role":"具名專家的 MRI 教學","importance":"本站選片拆解唇、肌腱、韌帶、TFCC 與正常變異等細節，適合在建立全套 MRI 搜尋順序後，針對容易誤判的結構複習。","boundary":"個別專家教學不等同共識文件，也不能用單一徵象替代完整影像判讀。","url":"https://www.agten.org/blog"},
+ {"name":"LearnNeuroradiology","channels":["LearnNeuroradiology"],"role":"神經放射教學","importance":"本站用於頸椎與腰椎的 MRI 搜尋順序、椎間盤命名和退化所見，幫助建立一致的觀察與報告用語。","boundary":"影像所見與症狀、神經學檢查仍須整合；不能只憑教學病例推定個案診斷。","url":"https://learnneuroradiology.com/about-us/"},
+ {"name":"ISMRM／ISMRT","channels":["ISMRM-ISMRT"],"role":"磁振醫學專業教育","importance":"本站收錄的半月板與軟骨講題，用於把 MRI 影像特徵、分類及報告重點連結起來，補充膝關節的進階判讀。","boundary":"學會提供的教育演講並不代表所有講者觀點都是正式指南。","url":"https://www.ismrm.org/history-mission/"},
+ {"name":"Sonosite 等設備商教育","channels":["Sonosite","Global Medical Business at Canon Inc.","Clarius Mobile Health"],"role":"設備商發布的專業示範","importance":"本站選片補充深部結構成像、分區掃描及動態觀察；發布者與實際講者分開列示，便於核對其示範用途。","boundary":"具有商業發布背景，不作為設備優越性或治療效益的獨立證據。","url":"https://www.sonosite.com/webinars"}
+]

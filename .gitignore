@@ -1,0 +1,13 @@
+dist/
+preview/
+__pycache__/
+.DS_Store
+
+*.zip
+*.log
+.env*
+!.env.example
+docs/screens/
+docs/sources-screens/
+docs/qwen-audit.json
+docs/audit-local.py

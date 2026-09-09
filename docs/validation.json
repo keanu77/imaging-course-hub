@@ -1,0 +1,172 @@
+{
+  "layouts": [
+    {
+      "theme": "light",
+      "width": 320,
+      "overflow": false,
+      "cards": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "h1": 1
+    },
+    {
+      "theme": "light",
+      "width": 390,
+      "overflow": false,
+      "cards": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "h1": 1
+    },
+    {
+      "theme": "light",
+      "width": 820,
+      "overflow": false,
+      "cards": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "h1": 1
+    },
+    {
+      "theme": "light",
+      "width": 1440,
+      "overflow": false,
+      "cards": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "h1": 1
+    },
+    {
+      "theme": "dark",
+      "width": 320,
+      "overflow": false,
+      "cards": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "h1": 1
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "overflow": false,
+      "cards": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "h1": 1
+    },
+    {
+      "theme": "dark",
+      "width": 820,
+      "overflow": false,
+      "cards": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "h1": 1
+    },
+    {
+      "theme": "dark",
+      "width": 1440,
+      "overflow": false,
+      "cards": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "h1": 1
+    },
+    {
+      "filter": "upper",
+      "count": 2
+    },
+    {
+      "filter": "lower",
+      "count": 3
+    },
+    {
+      "filter": "spine",
+      "count": 2
+    },
+    {
+      "filter": "all",
+      "count": 7
+    }
+  ],
+  "links": [
+    "https://shoulder-imaging.sportsmedicine.tw/",
+    "https://wrist-hand-imaging-course.pages.dev/",
+    "https://hip-imaging-course.pages.dev/",
+    "https://knee-imaging.sportsmedicine.tw/",
+    "https://ankle-foot-imaging-course.pages.dev/",
+    "https://cervical-imaging-course.pages.dev/",
+    "https://lumbar-imaging-course.pages.dev/"
+  ],
+  "social": [
+    {
+      "url": "https://www.facebook.com/EthanWuMD/",
+      "rel": "noopener"
+    },
+    {
+      "url": "https://www.instagram.com/ethan77wu/",
+      "rel": "noopener"
+    },
+    {
+      "url": "https://line.me/R/ti/p/@521cvffb",
+      "rel": "noopener"
+    }
+  ],
+  "checks": [
+    "quick filter and focus",
+    "all courses reset",
+    "theme reload",
+    "skip link",
+    "no-JS course access",
+    "local preview links separated"
+  ],
+  "errors": []
+}
