@@ -1,6 +1,6 @@
 # 安全問題回報
 
-安全問題請透過 [私下回報入口](https://sportsmedicine.tw/contact/) 聯絡維護者。若 GitHub 入口不可用，請使用 [主站聯絡頁](https://sportsmedicine.tw/contact/)。請勿在公開 issue、PR 或投稿表單貼出有效憑證、病人資料或可直接濫用的細節。
+安全問題請透過 [私下回報入口](https://github.com/keanu77/imaging-course-hub/security/advisories/new) 聯絡維護者。若 GitHub 入口不可用，請使用 [主站聯絡頁](https://sportsmedicine.tw/contact/)。請勿在公開 issue、PR 或投稿表單貼出有效憑證、病人資料或可直接濫用的細節。
 
 請提供受影響版本或 commit、最小重現步驟、預期影響及必要的遮蔽截圖。只使用你有權測試的資料與環境；不要向正式投稿服務大量送出測試。
 

@@ -4,7 +4,7 @@
 
 [開始學習](https://imaging-course-hub.sportsmedicine.tw/) · [七站總覽](https://imaging-course-hub.sportsmedicine.tw/) · [吳易澄醫師](https://sportsmedicine.tw/)
 
-**原始碼狀態：私有。提供已獲授權的協作者維護；本次不開放原始碼。** 網站可瀏覽與 repo 是否公開是兩個獨立設定。
+**原始碼狀態：公開。歡迎瀏覽原始碼與回報問題；再利用條件請見授權說明。** 網站可瀏覽與 repo 是否公開是兩個獨立設定。
 
 ![運動醫學影像學習站桌機畫面](docs/images/desktop.png)
 
@@ -64,7 +64,7 @@ python3 -m http.server 8940 --bind 127.0.0.1 --directory dist
 
 ## 授權與引用
 
-本站維持私有，尚未新增程式碼或教材的再利用授權。 詳見 [LICENSE](LICENSE)、[教材授權範圍](LICENSE-CONTENT.md) 與 [第三方及品牌聲明](NOTICE.md)。第三方影片、文獻與素材維持原權利人的條件，本站不代為授權。
+本站原始碼已公開，尚未新增程式碼或教材的再利用授權。 詳見 [LICENSE](LICENSE)、[教材授權範圍](LICENSE-CONTENT.md) 與 [第三方及品牌聲明](NOTICE.md)。第三方影片、文獻與素材維持原權利人的條件，本站不代為授權。
 
 引用專案可使用 [CITATION.cff](CITATION.cff)，並註明實際使用的 commit 或版本。引用臨床結論時，請直接引用原始文獻；專案引用不取代文獻引用。
 
@@ -83,6 +83,6 @@ python3 -m http.server 8940 --bind 127.0.0.1 --directory dist
 | 腰椎 | [進入網站](https://lumbar-imaging-course.pages.dev/) | 私有，未開放 |
 | 腕與手 | [進入網站](https://wrist-hand-imaging-course.pages.dev/) | 私有，未開放 |
 | 膝關節 | [進入網站](https://knee-imaging.sportsmedicine.tw/) | [GitHub](https://github.com/keanu77/knee-imaging-course) |
-| 課程總覽 | [進入網站](https://imaging-course-hub.sportsmedicine.tw/) | 私有，未開放 |
+| 課程總覽 | [進入網站](https://imaging-course-hub.sportsmedicine.tw/) | [GitHub](https://github.com/keanu77/imaging-course-hub) |
 
 [文件索引](docs/README.md) · [先前課程說明](docs/COURSE_GUIDE.md)
